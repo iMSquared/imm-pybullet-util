@@ -15,6 +15,16 @@ $ python3 -m pip install --upgrade pip
 $ python3 -m pip install -r requirements.txt
 ```
 
+If you are using Python version bigger than 3.8, delete the following line in "requirements.txt".
+```bash
+dataclasses==0.8
+```
+
+If you are using Anaconda instead of venv, delete the following line in "requirements.txt"
+```bash
+pkg_resources==0.0.0
+```
+
 ### Run the example script
 
 ```bash
