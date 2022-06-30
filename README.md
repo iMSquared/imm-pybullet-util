@@ -15,14 +15,11 @@ $ python3 -m pip install --upgrade pip
 $ python3 -m pip install -r requirements.txt
 ```
 
-<<<<<<< Updated upstream
-=======
 If you are using Anaconda instead of venv, delete the following line in "requirements.txt"
 ```bash
 pkg_resources==0.0.0
 ```
 
->>>>>>> Stashed changes
 ### Run the example script
 
 ```bash
