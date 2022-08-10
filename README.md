@@ -27,3 +27,12 @@ $ git clone https://github.com/caelan/motion-planners.git /tmp/motion-planners
 $ python3 -m pip install -e.
 $ MOTION_LIB_PATH=/tmp/motion-planners python3 examples/arm_motion.py
 ```
+
+### Run the example script with UR5+RG2 Robot
+
+```bash
+$ git clone https://github.com/caelan/motion-planners.git /tmp/motion-planners
+$ python3 -m pip install -e.
+$ cd examples/
+$ MOTION_LIB_PATH=/tmp/motion-planners python3 arm_motion.py
+```
